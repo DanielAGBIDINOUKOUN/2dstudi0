@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/2d-studi0/static/css/main.a80564de.css",
+    "main.js": "/2d-studi0/static/js/main.655aebf4.js",
+    "index.html": "/2d-studi0/index.html",
+    "main.a80564de.css.map": "/2d-studi0/static/css/main.a80564de.css.map",
+    "main.655aebf4.js.map": "/2d-studi0/static/js/main.655aebf4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a80564de.css",
+    "static/js/main.655aebf4.js"
+  ]
+}

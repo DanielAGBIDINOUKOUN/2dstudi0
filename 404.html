@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>2D Studio</title>
+  <script type="text/javascript">
+    var singlePageApplications = [
+      '/', 
+      '/contact', 
+      '/services',
+      '/about',
+      '/portfolio'
+    ];
+    
+    var l = window.location;
+    var pathname = l.pathname;
+    
+    // Rediriger vers index.html pour les routes SPA
+    if (!pathname.match(/\.(html|js|css|png|jpg|jpeg|gif|svg|ico|json)$/i)) {
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        '/2d-studio/index.html?path=' + pathname.slice(1)
+      );
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>
